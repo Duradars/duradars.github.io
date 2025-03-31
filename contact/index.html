@@ -1014,9 +1014,9 @@
 							}).catch(error => console.error("Failed to send email:", error));
 						}
 
-						if(sendEmail()){
-							alert('Thank you for reaching out! Your message has been received, and we’ll get back to you as soon as possible. Have a great day!');
-						}
+						sendEmail()
+						alert('Thank you for reaching out! Your message has been received, and we’ll get back to you as soon as possible. Have a great day!');
+						
 
 
 
